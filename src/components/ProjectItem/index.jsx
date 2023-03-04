@@ -1,5 +1,4 @@
 import React from "react";
-import LazyLoad from "react-lazyload";
 import {
   ProjectItemContainer,
   ProjectItemContent,
@@ -20,13 +19,11 @@ const ProjectItem = ({
 }) => {
   return (
     <ProjectItemContainer id="container">
-      <LazyLoad height={200}>
-        <ProjectItemImage id="image">
-          <a href={linkTo}>
-            <img src={image} alt={name} />
-          </a>
-        </ProjectItemImage>
-      </LazyLoad>
+      <ProjectItemImage id="image">
+        <a href={linkTo}>
+          <img src={image} alt={name} />
+        </a>
+      </ProjectItemImage>
       <ProjectItemContent id="content">
         <ProjectItemTitle>
           <a href={linkTo} target="_blank" rel="noopener noreferrer">
