@@ -9,6 +9,7 @@ export const ContactSection = styled.section`
 
   @media (max-width: 768px) {
     padding: ${rules.sectionPaddingMobile};
+    padding-bottom: 2rem;
   }
 `;
 

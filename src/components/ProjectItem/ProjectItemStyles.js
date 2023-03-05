@@ -4,7 +4,7 @@ import { colors, rules } from "../../globalStyles";
 export const ProjectItemContainer = styled.div`
   display: flex;
   flex-direction: row;
-  height: 300px;
+  height: 400px;
 
   &:hover {
     img {
@@ -12,8 +12,10 @@ export const ProjectItemContainer = styled.div`
     }
   }
 
-  @media (max-width: 1100px) {
-    height: 400px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
   }
 `;
 
@@ -32,9 +34,20 @@ export const ProjectItemImage = styled.div`
     transition: all 0.3s ease-in-out;
 
     @media (max-width: 1100px) {
-      width: 40%;
-      height: 80%;
+      width: 100%;
+      height: 100%;
     }
+
+    @media (max-width: 768px) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0;
   }
 `;
 
@@ -42,7 +55,12 @@ export const ProjectItemContent = styled.div`
   display: flex;
   flex-direction: column;
   width: 60%;
-  height: 100%;
+  height: 350px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const ProjectItemTitle = styled.h3`
@@ -58,6 +76,11 @@ export const ProjectItemTitle = styled.h3`
       color: ${colors.linkHover};
     }
   }
+
+  @media (max-width: 768px) {
+    padding-top: 1rem;
+    padding-left: 0;
+  }
 `;
 
 export const ProjectItemDescription = styled.div`
@@ -66,6 +89,15 @@ export const ProjectItemDescription = styled.div`
   font-weight: 400;
   line-height: 1.5;
   height: 300px;
+
+  @media (max-width: 900px) {
+    font-size: 1.1rem;
+    height: 450px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ProjectItemTags = styled.ul`
@@ -81,14 +113,24 @@ export const ProjectItemTags = styled.ul`
     border-radius: 10px;
     border: 2px solid ${colors.white};
   }
+
+  @media (max-width: 900px) {
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 1rem;
+    padding-left: 0;
+  }
 `;
 
 export const ProjectItemLinks = styled.div`
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin-top: 2rem;
+  padding-top: 1.5rem;
   padding-left: 2rem;
+  height: 100px;
 
   svg {
     width: 24px;
@@ -108,5 +150,10 @@ export const ProjectItemLinks = styled.div`
         }
       }
     }
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 1rem;
+    padding-left: 0;
   }
 `;

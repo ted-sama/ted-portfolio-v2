@@ -31,6 +31,16 @@ export const AboutHeading = styled.h2`
   background-position: 0 -3.6em;
   background-size: 100%;
 
+  @media (max-width: 825px) {
+    font-size: 4rem;
+    height: 7rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+    height: 5rem;
+  }
+
   span {
     background: transparent;
   }

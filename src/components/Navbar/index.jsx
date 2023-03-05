@@ -13,7 +13,7 @@ import {
 
 const Navbar = ({ toggle }) => {
   const [width, setWidth] = useState(window.innerWidth);
-  const breakpoint = 768;
+  const breakpoint = 769;
 
   useEffect(() => {
     const handleWindowResize = () => setWidth(window.innerWidth);

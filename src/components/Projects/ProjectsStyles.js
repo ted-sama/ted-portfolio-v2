@@ -29,11 +29,6 @@ export const ProjectsList = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
-  gap: 8rem;
-
-  @media (max-width: 1100px) {
-    gap: 2rem;
-  }
 `;
 
 export const ProjectsLinks = styled.div`
