@@ -13,11 +13,10 @@ const Hero = () => {
       <HeroContainer>
         <div>
           <HeroHeading>
-            Hey, c'est <HeroTed>Ted</HeroTed>.
+            Salut, c'est <HeroTed>Ted</HeroTed>.
           </HeroHeading>
           <HeroText>
-            Je suis un développeur principalement web qui crée souvent d'autres
-            choses.
+            Je suis un développeur web qui aime créer des choses.
           </HeroText>
         </div>
       </HeroContainer>
