@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
             <ul>
               <li>
                 <Link smooth spy to="intro" duration={450}>
-                  Acceuil
+                  Accueil
                 </Link>
               </li>
               <li>

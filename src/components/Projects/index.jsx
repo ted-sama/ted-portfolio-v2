@@ -10,7 +10,7 @@ import {
 } from "./ProjectsStyles";
 import chooeichaImg from "../../assets/projects_img/chooeicha.png";
 import pokedexImg from "../../assets/projects_img/pokedex.png";
-import stopifyImg from "../../assets/projects_img/stopify.png";
+import tastifyImg from "../../assets/projects_img/tastify.png";
 
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
       <ProjectsTitle>Mes projets</ProjectsTitle>
       <ProjectsContainer>
         <ProjectsHeading>
-          Voici une sélection de quelques projets.
+          Voici une sélection de quelques uns de mes projets.
         </ProjectsHeading>
         <ProjectsList>
           <ProjectItem
@@ -47,16 +47,16 @@ const Projects = () => {
             linkToGithub={"https://github.com/ted-sama/PokedexWeb"}
           />
           <ProjectItem
-            image={stopifyImg}
-            name={"Stopify"}
+            image={tastifyImg}
+            name={"Tastify!"}
             description={`
                 Un site web qui utilise l'API Spotify pour afficher les données Spotify 
                 d'un utilisateur. Il permet de voir des statistiques comme le top artistes
                 ou encore le top titres de l'utilisateur.
             `}
-            tags={["React", "Spotify API"]}
-            linkTo={"https://stopify-ted.netlify.app/"}
-            linkToGithub={"https://github.com/ted-sama/stopify"}
+            tags={["Vue", "Spotify API", "TailwindCSS"]}
+            linkTo={"https://tedtastify.netlify.app/"}
+            linkToGithub={"https://github.com/ted-sama/tastify"}
           />
         </ProjectsList>
       </ProjectsContainer>
