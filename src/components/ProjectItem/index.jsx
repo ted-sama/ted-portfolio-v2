@@ -20,7 +20,7 @@ const ProjectItem = ({
   return (
     <ProjectItemContainer id="container">
       <ProjectItemImage id="image">
-        <a href={linkTo}>
+        <a href={linkTo} target="_blank" rel="noopener noreferrer">
           <img src={image} alt={name} />
         </a>
       </ProjectItemImage>

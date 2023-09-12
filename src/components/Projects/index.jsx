@@ -21,6 +21,18 @@ const Projects = () => {
           Voici une sélection de quelques uns de mes projets.
         </ProjectsHeading>
         <ProjectsList>
+        <ProjectItem
+            image={tastifyImg}
+            name={"Tastify!"}
+            description={`
+                Un site web qui utilise l'API Spotify pour afficher les données Spotify 
+                d'un utilisateur. Il permet de voir des statistiques comme le top artistes
+                ou encore le top titres de l'utilisateur.
+            `}
+            tags={["Vue", "API", "TailwindCSS"]}
+            linkTo={"https://tedtastify.netlify.app/"}
+            linkToGithub={"https://github.com/ted-sama/tastify"}
+          />
           <ProjectItem
             image={chooeichaImg}
             name={"Chooeicha"}
@@ -30,7 +42,7 @@ const Projects = () => {
             MyAnimeList pour afficher les listes des mangas et animes du
             moment, en utilisant une interface type Netflix
             `}
-            tags={["React", "TypeScript", "Jikan API", "UI/UX"]}
+            tags={["React", "TypeScript", "API", "UI/UX"]}
             linkTo={"https://chooeicha.netlify.app/"}
             linkToGithub={"https://github.com/ted-sama/typescript-react-jikan"}
           />
@@ -38,25 +50,13 @@ const Projects = () => {
             image={pokedexImg}
             name={"JSPokédex"}
             description={`
-                Projet en JavaScript Vanilla pour apprendre à utiliser une API. 
+                Projet en JavaScript pour apprendre à utiliser une API. 
                 Je récupère les données de l'API PokéAPI et les affiche dans une
                 interface simpliste qui fonctionne comme un Pokédex.
             `}
             tags={["JavaScript", "PokéAPI", "CSS"]}
             linkTo={"https://pokedex-ted.netlify.app/"}
             linkToGithub={"https://github.com/ted-sama/PokedexWeb"}
-          />
-          <ProjectItem
-            image={tastifyImg}
-            name={"Tastify!"}
-            description={`
-                Un site web qui utilise l'API Spotify pour afficher les données Spotify 
-                d'un utilisateur. Il permet de voir des statistiques comme le top artistes
-                ou encore le top titres de l'utilisateur.
-            `}
-            tags={["Vue", "Spotify API", "TailwindCSS"]}
-            linkTo={"https://tedtastify.netlify.app/"}
-            linkToGithub={"https://github.com/ted-sama/tastify"}
           />
         </ProjectsList>
       </ProjectsContainer>

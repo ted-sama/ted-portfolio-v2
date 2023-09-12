@@ -16,7 +16,7 @@ const Hero = () => {
             Salut, c'est <HeroTed>Ted</HeroTed>.
           </HeroHeading>
           <HeroText>
-            Je suis un développeur web qui aime créer des choses.
+            Je suis un jeune développeur en recherche d'opportunités.
           </HeroText>
         </div>
       </HeroContainer>

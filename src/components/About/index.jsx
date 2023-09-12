@@ -18,7 +18,7 @@ const About = () => {
           <span>code</span>
         </AboutHeading>
         <AboutText>
-          Hey, je suis Teddy Nsoki ou Ted. Je suis développeur web en
+          Hey, je m'appelle Teddy Nsoki. Je suis développeur web en
           alternance. Passionné par la musique, les films ou encore les
           jeux-vidéos, j'aime particulièrement ce qui est graphique et créatif.
           Ainsi j'aime beaucoup créer des expériences pleines de créativité pour
