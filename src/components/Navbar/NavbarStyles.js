@@ -63,7 +63,7 @@ export const MobileNav = styled.div`
 export const Nav = styled.nav`
   display: flex;
   flex-direction: row;
-  background-color: none;
+  background-color: transparent;
   align-items: center;
   font-size: 1rem;
   font-weight: 500;
@@ -76,6 +76,7 @@ export const Nav = styled.nav`
 
   ul {
     display: flex;
+    background-color: transparent;
     flex-direction: row;
     gap: 30px;
 

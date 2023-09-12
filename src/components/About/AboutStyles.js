@@ -41,6 +41,13 @@ export const AboutHeading = styled.h2`
     height: 5rem;
   }
 
+  @media (max-width: 540px) {
+    font-size: 3rem;
+    height: 5rem;
+    margin-bottom: 2rem;
+    background-image: none;
+  }
+
   span {
     background: transparent;
   }

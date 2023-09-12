@@ -45,8 +45,8 @@ export const ProjectItemImage = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 100%;
-    height: 400px;
+    width: auto;
+    height: 220px;
     margin-bottom: 0;
   }
 `;
